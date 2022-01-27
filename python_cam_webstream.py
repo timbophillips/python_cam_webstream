@@ -13,10 +13,15 @@ PAGE="""\
 <html>
 <head>
 <title>Jessy's Security Cam</title>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
+<div class="w3-panel w3-blue">
 <h1>Jessy Security Camera</h1>
+</div> 
+<div class="w3-panel">
 <img src="stream.mjpg" width="640" height="480" />
+</div> 
 </body>
 </html>
 """
