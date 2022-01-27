@@ -92,6 +92,7 @@ if __name__ == '__main__':
     systemd.daemon.notify('READY=1')
 
     with picamera.PiCamera(resolution='640x480', framerate=24) as camera:
+        camera.led = False
         output = StreamingOutput()
         camera.start_recording(output, format='mjpeg')
         try:
