@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# install systemd dependencies
+sudo apt install python-systemd python3-systemd
+
 # create folders and copy files
 sudo mkdir /usr/local/lib/python_cam_webstream
 sudo cp ./python_cam_webstream.py /usr/local/lib/python_cam_webstream/
